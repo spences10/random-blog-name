@@ -1,0 +1,14 @@
+{
+  "name": "random-blog-name",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Scott Spence",
+    "email": "yo@scottspence.dev",
+    "url": "https://scottspence.com"
+  },
+  "devDependencies": {
+    "vercel": "^21.0.1"
+  }
+}
