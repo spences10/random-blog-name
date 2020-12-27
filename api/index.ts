@@ -2,7 +2,7 @@ import { NowRequest, NowResponse } from "@vercel/node";
 import slugify from "slugify";
 import { getBlogName } from "../src/random-name";
 
-export default (req: NowRequest, res: NowResponse) => {
+export default (_req: NowRequest, res: NowResponse) => {
   const name = getBlogName();
   const slug = slugify(name);
   res.setHeader("Access-Control-Allow-Credentials", `true`);
