@@ -8,7 +8,14 @@
     "email": "yo@scottspence.dev",
     "url": "https://scottspence.com"
   },
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
   "devDependencies": {
     "vercel": "^21.0.1"
+  },
+  "dependencies": {
+    "slugify": "^1.4.6"
   }
 }
