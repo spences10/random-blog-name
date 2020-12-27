@@ -4,5 +4,8 @@ import { getBlogName } from "../src/random-name";
 
 export default (req: NowRequest, res: NowResponse) => {
   const name = getBlogName();
-  return res.status(200).json({ name, slugified: slugify(name) });
+  const slug = slugify(name);
+  res.setHeader("Access-Control-Allow-Credentials", `true`);
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  return res.status(200).json({ name, slug });
 };
