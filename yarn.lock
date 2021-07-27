@@ -631,7 +631,7 @@ url-parse-lax@^3.0.0:
   dependencies:
     prepend-http "^2.0.0"
 
-vercel@^21.0.1:
+vercel@21.0.1:
   version "21.0.1"
   resolved "https://registry.yarnpkg.com/vercel/-/vercel-21.0.1.tgz#85d8052dcdf93f9fc62b6404d3a8cd8b8a1b2874"
   integrity sha512-N3xS1ydENdtC/i4RrJXg7Z9C0XSA8c0PQSM58WG+TkYY7BvSihv5kLqQHjzj9AXHkaY76bTfEpSLi1kmp0PjnQ==
