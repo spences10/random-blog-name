@@ -13,7 +13,7 @@
     "deploy": "vercel deploy --prod"
   },
   "devDependencies": {
-    "vercel": "28.0.1"
+    "vercel": "28.1.0"
   },
   "dependencies": {
     "slugify": "^1.4.6"
