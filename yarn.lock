@@ -1520,10 +1520,10 @@ util-deprecate@^1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vercel@28.5.3:
-  version "28.5.3"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-28.5.3.tgz#3d51b3c4a3f289198d449aee2b17ef23c2ffbdd1"
-  integrity sha512-atthg/SC3d/6qoYfWGkj3etAWKy+CiHiDRpUTacnAM+L9DB7r4nTe3lXrfLZWSboZroak6Nh8GXzFHFIYPUpKA==
+vercel@28.5.4:
+  version "28.5.4"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-28.5.4.tgz#c6dd20baf85cb4ab079f9a162faed93176e118a9"
+  integrity sha512-RfKzyB13hDiNXtddp+20PO36tI4u2Kj3VYl6obbprUKr4ExLAvqYr0yw/gIHXIz6uDnFifKclT1dYp0McaZGAQ==
   dependencies:
     "@vercel/build-utils" "5.5.8"
     "@vercel/go" "2.2.16"
